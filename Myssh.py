@@ -2,8 +2,8 @@
 import paramiko
 def ss(ip,cmd):
         hostname=ip
-        username='nbj'
-        password='Zzjr@2016'
+        username='admin'
+        password='******'
         port=22
         paramiko.util.log_to_file('paramiko.log')
         s=paramiko.SSHClient()

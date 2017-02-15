@@ -2,8 +2,8 @@
 import paramiko,datetime,os
 def qt_sftp(ip,local_dir,remote_dir):
  hostname=ip
- username='nbj'
- password='Zzjr@2016'
+ username='admin'
+ password='******'
  port=22
  try:
   t=paramiko.Transport((hostname,port))

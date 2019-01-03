@@ -4,7 +4,9 @@ from bs4 import BeautifulSoup
 
 
 '''
+
 检测蓝绿环境dubbo服务数量
+
 '''
 
 def checkdubbo(dubbo1,dubbo2):
